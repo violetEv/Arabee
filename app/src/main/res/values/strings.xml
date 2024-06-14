@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Arabee</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_about_us">About Us</string>
+    <string name="txt_latihan">Latihan</string>
+    <string name="txt_beranda">Beranda</string>
+    <string name="TXT_about_us">ABOUT US</string>
+    <string name="txt_desc">Selamat datang di Arabee, aplikasi belajar bahasa hijaiyah yang dirancang untuk memberikan pengalaman belajar yang menyenangkan dan efektif!</string>
+    <string name="txt_desc2">Kami adalah tim pengembang yang berdedikasi untuk menciptakan pengalaman belajar yang menyenangkan dan efektif bagi anak-anak dan pemula dalam mempelajari bahasa hijaiyah. Arabee dirancang dengan pendekatan yang modern dan user-friendly, memastikan bahwa pengguna dari segala usia dapat dengan mudah mengakses dan memahami materi pembelajaran.</string>
+    <string name="txt_misi">Misi Kami</string>
+    <string name="txt_visi">Visi Kami</string>
+    <string name="txt_tim"><![CDATA[Ninda - CEO & Co-Founder Ahmad adalah seorang pengusaha dengan visi untuk menggabungkan teknologi dan pendidikan. Dengan latar belakang di bidang teknologi informasi, ia memimpin tim Arabee dengan dedikasi untuk inovasi dan kualitas.]]></string>
+    <string name="txt_tim2">Afifah Nur Nabila - Chief Educational Officer Aisha memiliki pengalaman lebih dari 10 tahun di bidang pendidikan bahasa. Ia bertanggung jawab untuk merancang kurikulum dan memastikan bahwa setiap konten di Arabee sesuai dengan standar pendidikan yang tinggi.</string>
+    <string name="txt_tim3">Dian Nur Hayati - Lead Developer Hassan adalah pengembang aplikasi berpengalaman yang memimpin tim teknis kami. Dengan keahlian dalam pengembangan aplikasi mobile, ia memastikan Arabee berjalan dengan lancar dan user-friendly.</string>
+    <string name="txt_title_tim">Tim Kami</string>
+    <string name="txt_selamat_datang_di">Selamat Datang di</string>
+    <string name="txt_kategori_belajar">Kategori Belajar</string>
+    <string name="txt_hijaiyah">Hijaiyah</string>
+    <string name="txt_harakat">Harakat</string>
+    <string name="txt_latihan_soal">LATIHAN SOAL</string>
+    <string name="txt_level1">Level 1</string>
+    <string name="txt_level2">Level 2</string>
+    <string name="txt_apa_itu_hijaiyah">APA ITU HIJAIYAH</string>
+    <string name="txt_detail_desc">Huruf Hijaiyah adalah alfabet yang digunakan dalam penulisan bahasa Arab dan bahasa-bahasa lain yang ditulis dengan aksara Arab. Alfabet ini terdiri dari 28 huruf yang merupakan dasar dari tulisan Arab.</string>
+    <string name="TXT_apa_itu_hijaiyah">APA ITU HIJAIYAH?</string>
+    <string name="txt_apa_itu_hijaiyah1">APA ITU HIJAIYAH?</string>
+    <string name="txt_ta">Ta</string>
+    <string name="txt_dengar">Dengarkan</string>
+    <string name="txt_apa_itu_harakat1">Apa itu Harakat?</string>
+    <string name="txt_detailHarakat_desc">Harakat (bahasa Arab: حركات, translit. harakaat), atau tashkīl, adalah tanda baca atau diakritik yang ditempatkan pada huruf Arab untuk memperjelas gerakan dan pengucapan huruf tersebut.</string>
+    <string name="txt_fathah">Fathah</string>
+    <string name="txt_pertanyaan">Huruf hijaiyah apa ini ?</string>
+    <string name="txt_pertanyaan2">Bagaimana membaca huruf ini ?</string>
+</resources>
