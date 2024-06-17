@@ -1,5 +1,7 @@
 package com.example.arabee.presentation.Hijaiyah;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -9,6 +11,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.arabee.R;
+import com.example.arabee.data.model.Hijaiyah;
 
 public class DetailMateriHijaiyah3 extends AppCompatActivity {
 
@@ -23,4 +26,11 @@ public class DetailMateriHijaiyah3 extends AppCompatActivity {
             return insets;
         });
     }
+
+
+    public static void startActivity(Context context) {
+        Intent intent = new Intent(context, DetailMateriHijaiyah3.class);
+        context.startActivity(intent);
+    }
+
 }
