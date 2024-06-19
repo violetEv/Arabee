@@ -12,12 +12,6 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_latihan"
-        android:name="com.example.arabee.presentation.Latihan.LatihanFragment"
-        android:label="@string/txt_latihan"
-        tools:layout="@layout/fragment_latihan" />
-
-    <fragment
         android:id="@+id/navigation_aboutus"
         android:name="com.example.arabee.presentation.aboutus.AboutusFragment"
         android:label="@string/txt_about_us"

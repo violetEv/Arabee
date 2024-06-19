@@ -46,7 +46,7 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation(libs.coil)
-    implementation ("io.coil-kt:coil:1.4.0")
+    implementation(libs.glide)
 
 
 }

@@ -13,31 +13,7 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.Latihan.LatihanLevel2"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.Latihan.LatihanLevel1"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.Harakat.DetailMateriHarakat3"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.Harakat.DetailMateriHarakat2"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.Harakat.DetailMateriHarakat1"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.Hijaiyah.DetailMateriHijaiyah3"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.Hijaiyah.DetailMateriHijaiyah2"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.Hijaiyah.DetailMateriHijaiyah1"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.main.MainActivity"
+            android:name=".presentation.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,6 +21,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".presentation.Harakat.DetailMateriHarakat"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.Hijaiyah.DetailMateriHijaiyah"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.main.MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -11,8 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.arabee.R;
-import com.example.arabee.presentation.Harakat.DetailMateriHarakat1;
-import com.example.arabee.presentation.Hijaiyah.DetailMateriHijaiyah1;
+import com.example.arabee.presentation.Harakat.DetailMateriHarakat;
+import com.example.arabee.presentation.Hijaiyah.DetailMateriHijaiyah;
 
 public class HomeFragment extends Fragment {
 
@@ -51,12 +51,12 @@ public class HomeFragment extends Fragment {
     }
 
     private void navigateToDetailHarakat() {
-        Intent intent = new Intent(requireActivity(), DetailMateriHarakat1.class);
+        Intent intent = new Intent(requireActivity(), DetailMateriHarakat.class);
         startActivity(intent);
     }
 
     private void navigateToDetailHijaiyah() {
-        Intent intent = new Intent(requireActivity(), DetailMateriHijaiyah1.class);
+        Intent intent = new Intent(requireActivity(), DetailMateriHijaiyah.class);
         startActivity(intent);
 
     }

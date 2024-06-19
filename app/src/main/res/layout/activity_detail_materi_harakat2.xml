@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.Hijaiyah.DetailMateriHijaiyah1">
+    tools:context=".presentation.Harakat.DetailMateriHarakat">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ll_action_bar"
@@ -18,12 +18,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/tv_hijaiyah"
+            android:id="@+id/tv_harakat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
             android:padding="12dp"
-            android:text="@string/txt_hijaiyah"
+            android:text="@string/txt_harakat"
             android:shadowColor="@color/md_theme_scrim"
             android:shadowDx="2"
             android:shadowDy="2"
@@ -36,9 +36,11 @@
             app:layout_constraintTop_toTopOf="parent"/>
 
         <ImageView
+            android:id="@+id/iv_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/img_back"
+            android:onClick="navigateToHome"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -46,74 +48,29 @@
             />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         app:layout_constraintTop_toBottomOf="@id/ll_action_bar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginVertical="20dp"
-        android:layout_marginHorizontal="20dp"
-        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-        app:spanCount="3"
-        tools:listitem="@layout/item_harakat"/>
-
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cv_buttonSebelum"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        app:cardCornerRadius="16dp"
-        android:layout_marginVertical="50dp"
-        android:layout_marginHorizontal="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintHorizontal_chainStyle="spread_inside">
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="171dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/md_theme_primaryContainer">
+            android:layout_height="wrap_content">
 
-            <ImageView
-                android:id="@+id/iv_sebelum"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_margin="4dp"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                android:src="@drawable/img_sebelum" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cv_buttonSetelah"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        app:cardCornerRadius="16dp"
-        android:layout_marginVertical="50dp"
-        android:layout_marginHorizontal="80dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_chainStyle="spread_inside">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <include
+            layout="@layout/item_harakat"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/md_theme_primaryContainer">
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/ll_action_bar"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="20dp"/>
 
-            <ImageView
-                android:id="@+id/iv_setelah"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_margin="4dp"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                android:src="@drawable/img_setelah" />
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

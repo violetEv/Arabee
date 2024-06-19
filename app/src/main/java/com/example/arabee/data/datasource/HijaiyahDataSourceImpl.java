@@ -20,23 +20,23 @@ public class HijaiyahDataSourceImpl implements HijaiyahDataSource {
                 "https://raw.githubusercontent.com/matchaicy/FinalProject-assets/main/img_alif.png"
         ));
         hijaiyahs.add(new Hijaiyah(
-                "1",
+                "3",
                 "https://raw.githubusercontent.com/matchaicy/FinalProject-assets/main/img_alif.png"
         ));
         hijaiyahs.add(new Hijaiyah(
-                "1",
+                "4",
                 "https://raw.githubusercontent.com/matchaicy/FinalProject-assets/main/img_alif.png"
         ));
         hijaiyahs.add(new Hijaiyah(
-                "1",
+                "5",
                 "https://raw.githubusercontent.com/matchaicy/FinalProject-assets/main/img_alif.png"
         ));
         hijaiyahs.add(new Hijaiyah(
-                "1",
+                "6",
                 "https://raw.githubusercontent.com/matchaicy/FinalProject-assets/main/img_alif.png"
         ));
         hijaiyahs.add(new Hijaiyah(
-                "1",
+                "7",
                 "https://raw.githubusercontent.com/matchaicy/FinalProject-assets/main/img_alif.png"
         ));
         return hijaiyahs;
