@@ -1,6 +1,7 @@
-#Aplikasi Belajar Huruf Hijaiyah Untuk Anak-Anak
+##Aplikasi Belajar Huruf Hijaiyah Untuk Anak-Anak
 
-#Fitur
+##Fitur
+
 | No | Fitur  | Deskripsi  |
 | -- | --- | --- |
 | 1 | Beranda | Berisi ucapan selamat datang dan kategori belajar(Hijaiyah & Harakat) |
